@@ -1,0 +1,155 @@
+.ff-background {
+  background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.6) );
+  height: 100%;
+  width: 100%;
+  position: absolute
+}
+
+.farfriend-img {
+    height: 35px;
+    width: 35px;
+    margin-top: 15px;
+    margin-right: 10px;
+    border-style: none;
+  }
+
+.farfriends-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 10vh 80vh 10vh;
+  }
+
+  .chat-title-container {
+    grid-column-start: 1;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    align-self: center;
+  }
+
+  .chat-box-container {
+    grid-column-start: 1;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    border-style: solid;
+    border-color: rgba(0,0,0,0.3);
+    border-width: 1px;
+  }
+
+  .chat-message-container {
+    grid-template-rows: 1fr;
+    grid-column-start: 1;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    /* border-style: solid; */
+    /* border-color: black; */
+    /* border-width: 1px; */
+    /* background-color: rgba(255,255,255,0.3); */
+    /* box-shadow: -5px -5px 10px rgba(0,0,0,0.5); */
+    align-self: center;
+    justify-self: center;
+  }
+
+.form-btn-back {
+    position: fixed;
+    left: 2%;
+    top: 3.3%;
+    width: 75px;
+    height: 25px;
+    border-radius: 3px;
+    border-style:ridge;
+    background-color: rgba(0,0,0,0);
+    border-color: rgba(0,0,0,0.5);
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(0,0,0,0.5);
+    font-weight: 500;
+    padding-top: 5px;
+}
+
+.form-btn-send {
+    width: 60px;
+    border-style: none;
+    background-color: rgba(0,0,0,0);
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    padding: 0;
+    margin: 0;
+    margin-right: -40px;
+}
+
+.chat-messages {
+    overflow: auto;
+    height: 100%;
+    
+  }
+  
+  .message {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .message-img {
+    margin-left: 10px;
+    height: 35px;
+    width: 35px;
+    margin-right: 10px;
+    border-style: none;
+  }
+
+  .user-message-img {
+    margin-right: 10px;
+    height: 35px;
+    width: 35px;
+    margin-left: 10px;
+    border-style: none;
+  }
+  
+  .message-text {
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    max-width: 400px;
+    background-color: rgba(0,0,0,0.4);
+    color: rgba(255,255,255,0.7);
+  }
+  
+  .yoda {
+    align-self: flex-start;
+  }
+  
+  .lisa {
+    align-self: flex-end;
+  }
+  
+  .stitch {
+    align-self: flex-end;
+  }
+  
+  .message-user {
+  justify-content: flex-end;
+}
+
+.message-yoda {
+  justify-content: flex-start;
+}
+
+.typing::after {
+  content: "...";
+  animation: typing 1s steps(3, end);
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 20px }
+}
+
+
+@media only screen and (max-width: 600px) {
+  .form-search {
+    width: 40%
+  }
+}
+

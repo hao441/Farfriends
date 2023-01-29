@@ -1,0 +1,104 @@
+
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+h1 {
+  margin-bottom: 35px;
+}
+
+#main {
+  padding-top: 30px;
+  font-family: Helvetica, sans-serif;
+  max-width: 960px;
+  min-width: 600px;
+  width: 60vw;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#sentences-container {
+  flex: 1 1 auto;
+}
+
+#sentences-container>div {
+  margin-bottom: 10px;
+}
+
+#container {
+  display: flex;
+  flex-direction: row;
+}
+
+#self-similarity-matrix {
+  position: relative;
+}
+
+.labels {
+  position: absolute;
+}
+
+.x-axis {
+  bottom: 100%;
+  width: 100%;
+  height: 20px;
+}
+
+.x-axis>div {
+  transform: translateX(-50%);
+}
+
+.y-axis {
+  right: 100%;
+  height: 100%;
+  width: 20px;
+}
+
+.y-axis>div {
+  transform: translateY(-50%);
+}
+
+.labels>div {
+  position: absolute;
+}
+
+#description {
+  margin-bottom: 50px;
+  line-height: 1.6;
+}
