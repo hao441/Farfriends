@@ -1,9 +1,9 @@
 # Farfriends #
-At the start screen the user is prompted to select a cartoon character; Yoda, Lisa Simpson or Stitch from Lilo and Stitch and then click Start.
+Farfriends are a group of chatbots that each represent a different cartoon character; Yoda, Lisa Simpson and Stitch from Lilo and Stitch.
 
-Now one of the three tensorflow models will load which will train on conversation lines which are mapped to their conversation context.
+The application works by predicting the context of a user's message then mapping the context to a response which is manipulated by a part-of-speech NLP model to impersonate the given character.
 
-Now the chat UI will load and the user will be able to talk to their character. Once they ask a question, the model will be queried for the context then formulate a response.
+If a context cannot be accurately matched, the message will be put through a tensorflow qna model and then a fallback response will be given.
 
 Demo: https://farfriends.harrisonoates.io
 
