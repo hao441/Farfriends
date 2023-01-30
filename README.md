@@ -5,6 +5,8 @@ Now one of the three tensorflow models will load which will train on conversatio
 
 Now the chat UI will load and the user will be able to talk to their character. Once they ask a question, the model will be queried for the context then formulate a response.
 
+Demo: https://farfriends.harrisonoates.io
+
 ## Available Scripts
 
 In the project directory, you can run:
