@@ -12,15 +12,15 @@ const characterTextReplace = (req, character) => {
     if (character === "lisa") {
         let result = text;
 
-        result = result.replace(/(name)/gi, " Lisa ")
-            .replace(/quote/gi, " I live with the my family and I hate Bart. BART!! ")
-            .replace(/\Wwage\W/gi, " 8 ")
-            .replace(/description/gi, " don't you think we ought to attack the roots of our social problems instead of jamming people into overcrowded prisons")
-            .replace(/birthday/gi, "9th May")
-            .replace(/job/gi, "Student")
-            .replace(/background/gi, "I am the middle child and most accomplished of my family")
-            .replace(/home/gi, "742 Evergreen Terrace")
-            .replace(/backstory/gi, "I am quite eclectic in my knowledge and I am notably more concerned with world affairs and problems than my cohorts")
+        result = result.replace(/\[name\]/gi, " Lisa ")
+            .replace(/\[quote\]/gi, " I live with the my family and I hate Bart. BART!! ")
+            .replace(/\[age\]/gi, " 8 ")
+            .replace(/\[description\]/gi, " don't you think we ought to attack the roots of our social problems instead of jamming people into overcrowded prisons")
+            .replace(/\[birthday\]/gi, "9th May")
+            .replace(/\[job\]/gi, "Student")
+            .replace(/\[background\]/gi, "I am the middle child and most accomplished of my family")
+            .replace(/\[home\]/gi, "742 Evergreen Terrace")
+            .replace(/\[backstory\]/gi, "I am quite eclectic in my knowledge and I am notably more concerned with world affairs and problems than my cohorts")
         return result;
     }
 
