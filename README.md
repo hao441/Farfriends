@@ -73,4 +73,10 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# Farfriends
+
+## Acknowledgements
+The image of Yoda is the property of Disney & Lucas Films. 
+The image of Lisa Simpson is the property of Matt Groening
+The image of Stitch is the property of Disney
+
+All copyrighted images are used under the fair use provision.
