@@ -25,7 +25,7 @@ const Chat = ({ model }) => {
         setProcessing(true)
         setChatLog([...chatLog, { sender: "user", text: message }, { sender: {farfriend}, text: messageLoading}])
         setMessage('')
-        const ffResponse = await fetch('https://farfriends.herokuapp.com/predictresponse', {
+        const ffResponse = await fetch('https://farfriends-a97e0e85dc79.herokuapp.com/predictresponse', {
             method: 'POST',
             headers: {'Content-Type':'application/json'},
             body: JSON.stringify({"message": message, "model": model, "character": farfriend})

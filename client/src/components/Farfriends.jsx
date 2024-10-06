@@ -10,7 +10,7 @@
 
     const startModel = async () => {
         console.log('started')
-        const response = await fetch('https://farfriends.herokuapp.com/trainmodel', {
+        const response = await fetch('https://farfriends-a97e0e85dc79.herokuapp.com/trainmodel', {
             method: 'POST',
             headers: {'Content-Type':'application/json'},
         })
