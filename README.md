@@ -1,14 +1,12 @@
 # Farfriends #
 
-*Please note: much of this application's functionality is unavailable as I have disconnected the server infrastructure.
-
 Farfriends are a group of chatbots that each represent a different cartoon character; Yoda, Lisa Simpson and Stitch from Lilo and Stitch.
 
 The application works by predicting the context of a user's message then mapping the context to a response which is manipulated by a part-of-speech NLP model to impersonate the given character.
 
 If a context cannot be accurately matched, the message will be put through a tensorflow qna model and then a fallback response will be given.
 
-Demo: https://farfriends.netlify.app
+Demo: https://farfriends.netlify.app (Please note: much of this application's functionality is unavailable as I have disconnected the server infrastructure.)
 
 ## Available Scripts
 
