@@ -8,7 +8,7 @@ The application works by predicting the context of a user's message then mapping
 
 If a context cannot be accurately matched, the message will be put through a tensorflow qna model and then a fallback response will be given.
 
-Demo: https://evoproject.netlify.app
+Demo: https://farfriends.netlify.app
 
 ## Available Scripts
 
